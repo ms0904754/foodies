@@ -87,17 +87,19 @@ String get AffordabilityText {
               child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround,children: [
                 Row(children: [
                   Icon(Icons.schedule),
-                  SizedBox(width: 5,),
+                  SizedBox(width: 5),
                   Text("${duration} min",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),)
                 ],),
+                SizedBox(width: 10,),
                 Row(children: [
                   Icon(Icons.work),
                   SizedBox(width: 5,),
                   Text(ComplexityText,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),)
                 ],),
+                SizedBox(width: 8,),
                 Row(children: [
-                  Icon(Icons.attach_money),
-                  SizedBox(width: 5,),
+                  Icon(Icons.currency_rupee),
+                  SizedBox(width: 3,),
                   Text(AffordabilityText,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),)
                 ],)
               ],),

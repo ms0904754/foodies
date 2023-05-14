@@ -67,19 +67,19 @@ class _FilterState extends State<Filter> {
           ),
         ),
         Expanded(child: ListView(children: [
-          settingcontrol(isLactosefree,"isLactosefree", "Only Lactose free foods include",(newvalue) {
+          settingcontrol(isLactosefree,"isLactosefree", "Only include Lactose free foods",(newvalue) {
     setState(() {
     isLactosefree = newvalue;
     });}),
-          settingcontrol(isGlutanfree,"isGlutanfree", "Only Glutan free foods include",(newvalue) {
+          settingcontrol(isGlutanfree,"isGlutanfree", "Only include Glutan free foods",(newvalue) {
     setState(() {
     isGlutanfree = newvalue;
     });}),
-          settingcontrol(isVegetarian,"isVegetarian", "Only Vegetarian foods include",(newvalue) {
+          settingcontrol(isVegetarian,"isVegetarian", "Only include Vegetarian foods",(newvalue) {
     setState(() {
     isVegetarian = newvalue;
     });}),
-          settingcontrol(isVegan,"isVegan", "Only Vegan foods include",(newvalue) {
+          settingcontrol(isVegan,"isVegan", "Only include Vegan foods",(newvalue) {
     setState(() {
     isVegan = newvalue;
     });}),
